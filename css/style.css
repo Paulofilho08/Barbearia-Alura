@@ -162,7 +162,10 @@ td, th{
  font-size: 2em;
  margin: 0 0 1em;
  clear: left;
+ /*text-shadow: 2px 2px #ff0000 ; sombra */
+ 
 }
+
 
 .utesilios{
   width: 120px;
@@ -184,6 +187,7 @@ td, th{
 .beneficios{
   padding: 3em 0;
   background: #888888;
+ /* box-shadow: inset 10px 10px #ff0000;*/
  
 }
 .conteudo-beneficios{
@@ -208,9 +212,19 @@ td, th{
 }
 .imgBeneficios {
   width: 60%;
+  opacity:1;
+  transition: 400ms;
+  box-shadow: 10px 10px 10px  #000000;
+}
+.imgBeneficios:hover {
+  opacity: 0.5;
 }
 
 .video{
   width: 560px;
   margin: 2em auto;
+}
+/*responsividade*/
+@media screen and (max-width: 480px){
+  
 }
