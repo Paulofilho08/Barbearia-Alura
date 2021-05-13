@@ -232,4 +232,10 @@ td, th{
   h1{
     text-align: center;
   }
+  nav{
+    position: static;
+  }
+  .lista-beneficios, .imgBeneficios{
+    width: 100%;
+  }
 }
